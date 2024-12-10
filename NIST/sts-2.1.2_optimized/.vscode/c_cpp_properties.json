@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "G:/softwares/msys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0",
+                "G:/softwares/msys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32",
+                "G:/softwares/msys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward",
+                "G:/softwares/msys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+                "G:/softwares/msys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include",
+                "G:/softwares/msys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,1 @@
+在优化版本中，makefile中的gcc和nvcc路径位置都需要修改，然后utilities.h中有定义全局变量的错误，把timeCounter全局变量的定义移至到utilities.c中就好了。

@@ -1,0 +1,38 @@
+#!/usr/bin/expect -f
+
+# 设置 expect 超时时间，单位为秒
+set timeout -1
+
+# 从命令行参数获取输入文件路径和参数
+set input_file [lindex $argv 0]
+set parameter [lindex $argv 1]
+
+cd ./sts-2.1.2_optimized
+
+# 启动 NIST 程序
+spawn ./assess $parameter
+
+# 第一步输入 0
+expect "Enter Choice: " { send "0\r" }
+
+# 第二步输入二进制文件路径
+expect "User Prescribed Input File: " { send ".$input_file\r" }
+
+# 第三步输入 1
+expect "Enter Choice:" { send "1\r" }
+
+# 第四步输入 0
+expect "Select Test (0 to continue):" { send "0\r" }
+
+# 第五步输入 1000
+expect "How many bitstreams? " { send "1000\r" }
+
+# 第六步输入 1
+expect "Select input mode:  " { send "1\r" }
+
+# 等待程序执行结束
+expect eof
+
+cd ..
+# 退出 expect
+exit

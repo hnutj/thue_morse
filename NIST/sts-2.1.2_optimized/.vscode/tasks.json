@@ -1,0 +1,128 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cl.exe build active file",
+			"command": "cl.exe",
+			"args": [
+				"/Zi",
+				"/EHsc",
+				"/nologo",
+				"/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${fileDirname}\\*.c"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"detail": "compiler: cl.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cl.exe build active file",
+			"command": "cl.exe",
+			"args": [
+				"/Zi",
+				"/EHsc",
+				"/nologo",
+				"/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${fileDirname}\\*.c"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"detail": "compiler: cl.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cl.exe build active file",
+			"command": "cl.exe",
+			"args": [
+				"/Zi",
+				"/EHsc",
+				"/nologo",
+				"/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${fileDirname}\\*.c"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"detail": "compiler: cl.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cl.exe build active file",
+			"command": "cl.exe",
+			"args": [
+				"/Zi",
+				"/EHsc",
+				"/nologo",
+				"/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${fileDirname}\\*.c"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"detail": "compiler: cl.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe build active file",
+			"command": "G:\\softwares\\msys2\\ucrt64\\bin\\gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${fileDirname}\\*.c",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: G:\\softwares\\msys2\\ucrt64\\bin\\gcc.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe build active file",
+			"command": "G:\\softwares\\msys2\\ucrt64\\bin\\gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${fileDirname}\\*.c",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: G:\\softwares\\msys2\\ucrt64\\bin\\gcc.exe"
+		}
+	]
+}
